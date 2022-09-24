@@ -1,0 +1,113 @@
+.container_image {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.container_image img {
+  width: 80%;
+  height: 80%;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.1s;
+}
+
+/* Map Css start Here */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(109, 214, 30, 0.5) !important;
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(109, 214, 30, 0.9) !important;
+}
+.marker-cluster {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !;
+  -moz-border-radius: 50% !;
+  -ms-border-radius: 50% !;
+  -o-border-radius: 50% !;
+}
+
+.marker-cluster div {
+  width: 30px !important;
+  height: 30px !important;
+  position: relative !important;
+  top: 9px !important;
+  left: 10px !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !;
+  -moz-border-radius: 50% !;
+  -ms-border-radius: 50% !;
+  -o-border-radius: 50% !;
+}
+
+.marker-cluster-small div span {
+  font-weight: bold !important;
+  color: white !important;
+  position: relative !important;
+  top: 4px !important;
+  left: 10px !important;
+  font-size: 16px !important;
+}
+.marker-cluster-medium div span {
+  font-weight: bold !important;
+  color: white !important;
+  position: relative !important;
+  top: 4px !important;
+  left: 6px !important;
+  font-size: 16px !important;
+}
+.marker-cluster-large div span {
+  font-weight: bold !important;
+  color: white !important;
+  position: relative !important;
+  top: 9px !important;
+  left: 6px !important;
+  font-size: 16px !important;
+}
+
+.marker-cluster-large {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.marker-cluster-large div {
+  width: 40px !important;
+  height: 40px !important;
+  position: relative !important;
+  top: 11px !important;
+  left: 10px !important;
+}
+
+.popup_modle {
+  position: absolute;
+  right: 40px !important;
+  top: 100px !important;
+  height: 600px;
+
+  width: 400px;
+  background-color: rgba(5, 5, 5, 0.7) !important;
+  background: linear-gradient(
+    60deg,
+    rgba(134, 134, 134, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 59%
+  ) !important;
+}
+.modal_container {
+  border: 2px solid transparent !important;
+}
